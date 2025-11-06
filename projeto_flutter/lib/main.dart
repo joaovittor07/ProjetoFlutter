@@ -399,7 +399,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.1),
+                      color: Colors.black.withOpacity(0.1),
                       blurRadius: 15,
                       offset: const Offset(0, 5),
                     ),
@@ -446,7 +446,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     Container(
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        color: const Color(0xFF1E88E5).withValues(alpha: 0.1),
+                        color: const Color(0xFF1E88E5).withOpacity(0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Row(
@@ -475,7 +475,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     Container(
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        color: const Color(0xFF43A047).withValues(alpha: 0.1),
+                        color: const Color(0xFF43A047).withOpacity(0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Row(
@@ -504,7 +504,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 ),
               ),
               const SizedBox(height: 30),
-              SizedBox(
+              Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
                   onPressed: () {
@@ -568,7 +568,7 @@ class PaymentConfirmationScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.1),
+                      color: Colors.black.withOpacity(0.1),
                       blurRadius: 15,
                       offset: const Offset(0, 5),
                     ),
@@ -674,7 +674,7 @@ class PaymentConfirmationScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 30),
-              SizedBox(
+              Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
                   onPressed: () {
